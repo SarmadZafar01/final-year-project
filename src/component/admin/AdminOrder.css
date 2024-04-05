@@ -1,0 +1,256 @@
+.Topserarch{
+    background-color: #2D203A;
+    width: 1000px;
+    height:60px;
+    position: absolute;
+    bottom: 530px;
+    left:280px;
+    border-radius: 10px;
+}
+
+.Topserarch input{
+    position: relative;
+    top:16px;
+    left:25px;
+    height:28px;
+    width: 270px;
+    border: none;
+    border-radius: 10px;
+    background-color: White;
+
+}
+
+.Orderinfo{
+    background-color: #2D203A;
+    width: 1000px;
+    height:35px;
+    position: absolute;
+    bottom: 485px;
+    left:280px;
+    border-radius: 10px;
+}
+
+.Orderinfo .N11{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:5px;
+    left:40px
+   
+}
+.Orderinfo .E11{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:7px;
+    left:175px
+   
+}
+.Orderinfo .T11{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:5px;
+    left:410px
+   
+}
+.Orderinfo .S11{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:5px;
+    left:570px
+   
+}
+.Orderinfo .D11{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:5px;
+    left:750px
+   
+}
+.Orderinfo .A11{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:5px;
+    left:910px
+   
+}
+
+.Ooder{
+    background-color: #2D203A;
+    width: 1000px;
+    height:350px;
+    position: absolute;
+    bottom: 120px;
+    left:280px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.Ooder .cOrder{
+    position: absolute;
+    top:20px;
+    left:45px
+    
+}
+
+.Ooder .Gmail{
+    position: absolute;
+    top:20px;
+    left:170px;
+}
+
+.Ooder .PPRice{
+    position: absolute;
+    top:20px;
+    left:410px;
+}
+
+.Ooder .Paid{
+    position: absolute;
+    top:20px;
+    left:570px;
+    background-color: #3B3B3B;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.Ooder .date{
+    position: absolute;
+    top:20px;
+    left:750px;
+}
+.Ooder .Actionicon{
+    position: absolute;
+    top:20px;
+    left:930px;
+    
+    cursor: pointer;
+}
+
+.Ooder .Actionicon a{
+    color: #C338C8;
+}
+
+.Ooder  hr{
+    position: relative;
+   top:50px;
+   width:940px;
+   opacity: 0.5;
+}
+
+.Ooder .c2Order{
+    position: absolute;
+    top:80px;
+    left:45px
+    
+}
+
+.Ooder .GGmail{
+    position: absolute;
+    top:80px;
+    left:170px;
+}
+
+.Ooder .PPRice2{
+    position: absolute;
+    top:80px;
+    left:410px;
+}
+
+.Ooder .Paid2{
+    position: absolute;
+    top:80px;
+    left:570px;
+    background-color: #3B3B3B;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.Ooder .date2{
+    position: absolute;
+    top:80px;
+    left:750px;
+}
+.Ooder .Actionicon2{
+    position: absolute;
+    top:80px;
+    left:930px;
+    color: #C338C8;
+    cursor: pointer;
+}
+
+.Ooder .Actionicon2 a{
+    color: #C338C8;
+}
+
+.Ooder  .hr2 hr{
+    position: relative;
+   top:20px;
+   width:940px;
+   opacity: 0.5;
+}
+
+.Ooder .c3Order{
+    position: absolute;
+    top:150px;
+    left:45px
+    
+}
+
+.Ooder .GGGmail{
+    position: absolute;
+    top:150px;
+    left:170px;
+}
+
+.Ooder .PPRice3{
+    position: absolute;
+    top:150px;
+    left:410px;
+}
+
+.Ooder .Paid3{
+    position: absolute;
+    top:150px;
+    left:570px;
+    background-color: #3B3B3B;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.Ooder .date3{
+    position: absolute;
+    top:150px;
+    left:750px;
+}
+.Ooder .Actionicon3{
+    position: absolute;
+    top:150px;
+    left:930px;
+    
+    cursor: pointer;
+}
+.Ooder .Actionicon3 a{
+    color: #C338C8
+}
+
+.Ooder  .hr3 hr{
+    position: relative;
+   top:-20px;
+   width:940px;
+   opacity: 0.5;
+}
+
+
+

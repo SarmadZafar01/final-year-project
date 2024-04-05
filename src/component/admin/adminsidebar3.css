@@ -1,0 +1,99 @@
+.sidebar{
+    width: 20%;
+    background-color: hwb(274 10% 81%);
+    margin-left: -10px;
+    margin-top: -10px;
+    height:852px;
+   
+    
+}
+.sidebar .Adminicon13{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+   bottom: 485px;
+   left:10px;
+}
+.sidebar .Adminicon14{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+   bottom: 430px;
+   left:10px;
+}
+
+.sidebar .Adminicon15{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+   bottom: 370px;
+   left:10px;
+}
+
+.sidebar .Adminicon16{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+   bottom: 307px;
+   left:10px;
+}
+
+.sidebar .Adminicon117{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+   bottom: 190px;
+   left:10px;
+}
+
+.sidebar .Adminicon118{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+   bottom: 245px;
+   left:10px;
+}
+
+
+
+
+.sidebar-title a{
+    color: white;
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin-left: 60px;
+    font-size: 25px;
+    gap: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 53px;
+    
+  }
+  
+  .sidebar-links li {
+   
+    gap: 80px;
+    margin-bottom: 30px;
+  }
+  .sidebar-links li a {
+   
+    text-decoration: none;
+    color: white;
+    margin-bottom: 40px;
+    gap: 100px;
+   
+  }
+
+  .sidebar .COPY{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top:800px;
+    left:30px;
+  }

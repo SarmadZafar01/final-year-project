@@ -1,0 +1,40 @@
+.Hero{
+    background-color:#342940;
+    width:1300px;
+    position: relative;
+    bottom: 7px;
+    right: 7px;
+    height: 200px;
+}
+
+.Hero img {
+    width: 33%; 
+    height: auto; 
+    border-radius: 8px; 
+  position: relative;
+  left:760px;
+  bottom:30px;
+  }
+  .Word p{
+    position: relative;
+    bottom:230px;
+  }
+  @media screen and (min-width: 768px) {
+    .Hero img {
+      width: 33%;
+      position: relative;
+      left: 760px;
+      bottom: 30px;
+    }
+  
+    .Word p {
+      position: relative;
+      bottom: 230px;
+    }
+  }
+  
+
+  
+  
+  
+  

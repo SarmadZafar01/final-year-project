@@ -1,0 +1,290 @@
+.box25{
+    border-radius: 20px;
+      width:1014px;
+      height:520px;
+      margin-top: 10px;
+      border: 1px solid rgb(126, 115, 115);
+      margin-left: 270px;
+      left:170px;
+     
+  }
+
+  .box25 .Chat-name{
+    color:white;
+    position: absolute;
+    left:300px;
+    top:100px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name::after {
+    content: ' Sarmad';
+    position: absolute;
+    right:55px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name:hover::after {
+    content: 'Room ID 123';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name1{
+    color:white;
+    position: absolute;
+    left:500px;
+    top:100px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name1::after {
+    content: ' Rafay';
+    position: absolute;
+    right:55px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name1:hover::after {
+    content: 'Room ID 12';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name2{
+    color:white;
+    position: absolute;
+    left:700px;
+    top:100px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name2::after {
+    content: ' Zohaib';
+    position: absolute;
+    right:55px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name2:hover::after {
+    content: 'Room ID 146';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name3{
+    color:white;
+    position: absolute;
+    left:900px;
+    top:100px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name3::after {
+    content: ' Haroon';
+    position: absolute;
+    right:55px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name3:hover::after {
+    content: 'Room ID 198';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name4{
+    color:white;
+    position: absolute;
+    left:1100px;
+    top:100px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name4::after {
+    content: ' Fahad';
+    position: absolute;
+    right:55px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name4:hover::after {
+    content: 'Room ID 100';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name5{
+    color:white;
+    position: absolute;
+    left:300px;
+    top:160px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name5::after {
+    content: 'Ali Hassan';
+    position: absolute;
+    right:40px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name5:hover::after {
+    content: 'Room ID 200';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name6{
+    color:white;
+    position: absolute;
+    left:500px;
+    top:160px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name6::after {
+    content: 'Amir';
+    position: absolute;
+    right:60px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name6:hover::after {
+    content: 'Room ID 300';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name7{
+    color:white;
+    position: absolute;
+    left:700px;
+    top:160px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name7::after {
+    content: 'Ali Raza';
+    position: absolute;
+    right:40px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name7:hover::after {
+    content: 'Room ID 589';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name8{
+    color:white;
+    position: absolute;
+    left:900px;
+    top:160px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name8::after {
+    content: 'Umer';
+    position: absolute;
+    right:60px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name8:hover::after {
+    content: 'Room ID 865';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }
+
+  .box25 .Chat-name9{
+    color:white;
+    position: absolute;
+    left:1100px;
+    top:160px;
+    background-color: #202022;
+    width:170px;
+    height:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+  }
+
+  .box25 .Chat-name9::after {
+    content: 'Faique';
+    position: absolute;
+    right:60px;
+    top:3px;
+  }
+  
+  .box25 .Chat-name9:hover::after {
+    content: 'Room ID 200';
+    position: absolute;
+    right:35px;
+    top:3px;
+  }

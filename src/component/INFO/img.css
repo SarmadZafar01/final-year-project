@@ -1,0 +1,33 @@
+/* ImageWithText.css */
+.p2 img {
+    width: 92%;
+    height: auto;
+    position: relative;
+    left: 95%;
+ 
+  }
+  
+  p {
+    font-size: 30px;
+    color: #ffffff;
+   position: relative;
+   left: 110px;
+   bottom: 260px;
+   
+  }
+  p span {
+    font-size: 30px;
+    color: #D90EFF
+}
+
+.Text {
+    font-size: 16px; /* Add a font size for the .Text class */
+    color: #E68AEC;
+    position: relative;
+    left: 110px;
+    bottom: 280px;
+}
+
+
+
+

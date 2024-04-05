@@ -1,0 +1,48 @@
+.signupage {
+    max-width: 310px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:  hwb(274 10% 81%);
+    position: relative;
+    right: 300px;
+    bottom: -50px;
+  }
+  .signupage h2 {
+    text-align: center;
+    color: white
+  }
+  .signupage label {
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    position: relative;
+    right:0px;
+  }
+  .signupage input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .changepassword label{
+    position: relative;
+    left:160px;
+  }
+  .signupage button {
+    width: 98%;
+    padding: 10px;
+    background-color: #C338C8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .signupage button:hover {
+    background-color: #85028a
+  }

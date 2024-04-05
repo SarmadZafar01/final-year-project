@@ -1,0 +1,240 @@
+.TotalSale{
+    position: absolute;
+    bottom:510px;
+    left:330px;
+    text-align: center;
+    color:white;
+    background-color: #2D203A;
+    width:190px;
+    height:30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.TotalSale .sale{
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+    bottom: 8px;
+}
+
+.TotalSale .sale .s1{
+    font-size: 15px;
+    position: relative;
+    right:10px;
+    top:5px;
+}
+
+.Totalorder{
+    position: absolute;
+    bottom:510px;
+    left:650px;
+    text-align: center;
+    color:white;
+    background-color:  #2D203A;
+    width:190px;
+    height:30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.Totalorder .orderss{
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+    bottom: 8px;
+}
+.Totalorder .orderss .o1{
+    font-size: 15px;
+    position: relative;
+    right:35px;
+    top:5px;
+}
+
+.Totalproduct{
+    position: absolute;
+    bottom:510px;
+    left:970px;
+    text-align: center;
+    color:white;
+    background-color:  #2D203A;
+    width:190px;
+    height:30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Totalproduct .productss{
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+    bottom: 8px;
+    
+}
+
+.Totalproduct .productss .pa11{
+    font-size: 15px;
+    position: relative;
+    right:40px;
+    top:5px;
+}
+
+.stat{
+    position: absolute;
+    bottom: 190px;
+    left:320px;
+   
+}
+
+.stat img{
+    width:400px;
+}
+
+
+
+.pstat{
+    position: absolute;
+    bottom: 190px;
+    left:765px;
+}
+
+.pstat img{
+    width:350px;
+}
+
+.LOrder{
+    background-color:  #2D203A;;
+    width: 850px;
+    height:300px;
+    position: absolute;
+    top:450px;
+    left:330px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.LOrder .cOrder{
+    position: absolute;
+    top:50px;
+    left:20px
+    
+}
+
+.LOrder .Gmail{
+    position: absolute;
+    top:50px;
+    left:150px;
+}
+
+.LOrder .PPRice{
+    position: absolute;
+    top:50px;
+    left:370px;
+}
+
+.LOrder .Paid{
+    position: absolute;
+    top:45px;
+    left:530px;
+    background-color: #3B3B3B;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.LOrder .date{
+    position: absolute;
+    top:50px;
+    left:700px;
+}
+
+.LOrder  hr{
+    position: relative;
+   top:50px;
+}
+.LOrder .c2Order{
+    position: absolute;
+    top:110px;
+    left:20px
+    
+}
+
+.LOrder .GGmail{
+    position: absolute;
+    top:110px;
+    left:150px
+    
+}
+
+
+.LOrder .PPRice2{
+    position: absolute;
+    top:110px;
+    left:370px
+}
+
+.LOrder .Paid2{
+    position: absolute;
+    top:110px;
+    left:530px;
+    background-color: #3B3B3B;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.LOrder .date2{
+    position: absolute;
+    top:110px;
+    left:700px
+}
+.LOrder .hr2 hr{
+    position: relative;
+    top:20px;
+}
+
+.LOrder .c3Order{
+    position: absolute;
+    top:170px;
+    left:20px
+    
+}
+
+.LOrder .GGGmail{
+    position: absolute;
+    top:170px;
+    left:150px
+    
+}
+
+
+.LOrder .PPRice3{
+    position: absolute;
+    top:170px;
+    left:370px
+}
+
+.LOrder .Paid3{
+    position: absolute;
+    top:170px;
+    left:530px;
+    background-color: #3B3B3B;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.LOrder .date3{
+    position: absolute;
+    top:170px;
+    left:700px
+}
+.LOrder .hr3 hr{
+    position: relative;
+    top:-10px;
+}
+
+

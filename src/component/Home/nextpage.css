@@ -1,0 +1,12 @@
+.page button{
+   background-color: hsl(298, 70%, 49%);
+   border: none;
+   border-radius: 10px;
+   position: relative;
+   left:1120px;
+   bottom: 75px;
+   margin-right: 10px;
+   padding: 5px;
+   width:70px;
+}
+    

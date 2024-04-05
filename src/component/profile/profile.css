@@ -1,0 +1,103 @@
+.Side {
+  background-color: #3B3B3B;
+  position: absolute;
+  top: 110px;
+  width: 280px;
+  left: 100px;
+  height: 370px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 20px;
+}
+
+.Side .pic {
+  position: absolute;
+  left: 83px;
+  background-color: white;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%; /* Make it a circle */
+  top: 40px;
+  border: 2px solid black;
+  overflow: hidden; /* Clip the image to the circle */
+}
+
+.Side .pic img {
+  width: 100%;
+  max-height: 200px; /* Set your preferred height */
+  border-radius: 10%;
+  position: relative;
+  top:0px; /* Ensure the image is a circle */
+}
+
+.Side .pic p {
+  font-size: 25px;
+  position: absolute;
+  top: 120px;
+  left: -10px;
+  width: 200px;
+}
+
+.Side .PRONAME{
+  color:#fff;
+  position: absolute;
+  top:180px;
+  left:70px;
+  font-size: 25px;
+}
+
+.Side .Date p {
+  font-size: 22px;
+  position: absolute;
+  top: 210px;
+  width: 300px;
+  left: 50px;
+}
+
+.b10 button {
+  width: 280px;
+  position: absolute;
+  top: 314px;
+  border: none;
+  height: 56px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(27, 25, 25);
+  color: white;
+}
+
+.Side .newbar {
+  position: absolute;
+  left: 300px;
+  background-color: #3B3B3B;
+  width: 800px;
+  height: 27px;
+  border-radius: 20px;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.newbar-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  position: relative;
+  left: -10px;
+  bottom: 10px;
+}
+
+.newbar-links li {
+  text-transform: uppercase;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.newbar-links li:hover {
+  transform: scale(1.1);
+}
+
+.newbar-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.newbar-links a:hover {
+  text-decoration: underline;
+}

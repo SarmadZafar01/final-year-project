@@ -1,0 +1,81 @@
+/* model.css */
+
+.Type {
+    background-color: hwb(274 10% 81%); 
+    width: 150px;
+    height: 90px;
+    position: relative;
+    bottom: 1010px;
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+    left:10px
+  }
+  
+  .Select2 {
+    margin-top: 5px;
+    background-color:  #342940;
+    height:70px;
+    
+  }
+
+  .Select2 .box2 .minvalue label {
+   position: relative;
+   left:-10px;
+   font-size: 15px;
+    
+  }
+
+  .Select2 .box2 .minvalue input {
+    position: relative;
+    left:-30px;
+    width:55px;
+    top:15px;
+   background-color: #3B3B3B;
+   border: 1px solid rgb(121, 117, 117)
+     
+   }
+
+
+   .Select2 .box2 .Maxvalue input {
+    position: relative;
+    left:31px;
+    width:55px;
+    bottom:4px;
+   background-color: #3B3B3B;
+   border: 1px solid rgb(121, 117, 117)
+     
+
+   }
+
+   .Select2 .box2 .B10010 button {
+    background-color: #C338C8;
+    border: none;
+    width:100px;
+    border-radius: 5px;
+    height:22px;
+
+     
+   }
+  
+  
+  
+  
+  label {
+    text-align: center;
+    display: grid;
+    position: relative;
+    right: 22px;
+    top:10px;
+   
+  }
+
+
+  
+
+  input[type="checkbox"]:checked {
+    background-color: #85028a; 
+  }
+
+  
+  

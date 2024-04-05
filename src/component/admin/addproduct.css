@@ -1,0 +1,168 @@
+.NewProduct{
+    position: absolute;
+    left:700px;
+    margin-top: 20px;
+    color:white;
+    font-size: 35px;
+}
+.Card {
+    position: absolute;
+    left: 450px;
+    margin-top: 70px;
+    background-color: #2F2F34;
+    font-size: 30px;
+    width: 50%;
+    height:650px;
+    border-radius: 10px;
+
+}
+
+
+
+.P112{
+    position: relative;
+    color: white;
+    right:-20px;
+    font-size: 25px;
+}
+.p113{
+    color:white;
+    position: relative;
+    right:-20px;
+    font-size: 25px;
+    top:40px;
+}
+
+.p117{
+    color:white;
+    position: relative;
+    right:-20px;
+    font-size: 25px;
+    top:60px;
+}
+
+.P115 {
+    /* Add your styles here */
+    width: 500px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    position: relative;
+    left:20px;
+    top:60px;
+    background-color: #21212E;
+    color: white;
+  }
+
+  .p114{
+    color:white;
+    position: relative;
+    right:-20px;
+    font-size: 25px;
+    top:75px;
+  }
+  
+  /* Style the options within the select dropdown */
+  .P115 option {
+    background-color: #fff;
+    color: #333;
+  }
+
+  
+  
+.Card input{
+    width: 500px;
+    height:35px;
+    position: relative;
+    left:20px;
+    background-color: #21212E;
+    top:20px;
+    border: none;
+    border-radius: 10px;
+
+    
+}
+
+.describe input{
+    width: 500px;
+    height:35px;
+    position: relative;
+    right:50px;
+    top: 80px;
+    height:90px
+}
+
+.Pricess input{
+    width: 500px;
+    position: relative;
+    top:40px;
+}
+.Look .UMPER input{
+    width: 500px;
+    position: relative;
+    top:10px;
+    height:20px;
+    visibility: hidden;
+    
+}
+
+.Look .UMPER{
+    width: 78%;
+    height:170px;
+    background-color:#21212E ;
+    position: relative;
+    top:10px;
+    left:0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Look .UMPER .ICONN{
+    position: relative;
+    left:190px;
+    font-size: 80px;
+    color: white;
+    top:40px;
+}
+.Look .UMPER img {
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+    max-height: 100%; /* Ensures the image doesn't exceed the container height */
+    border-radius: 10px;
+}
+
+.image{
+    color:white;
+    position: relative;
+    top:90px;
+    right:-20px;
+    font-size: 25px;
+}
+
+
+
+.B110 {
+    position: absolute;
+    bottom:660px;
+    left:730px;
+    
+}
+
+.B110 button{
+    background-color: #C338C8;
+    color:white;
+    width:90px;
+    border-radius: 20px;
+    height:30px;
+    border: none;
+    font-size: 20px;
+
+}
+
+
+
+
+.Card input,
+.describe input,
+.Pricess input,
+.p115{
+    color: white;
+}

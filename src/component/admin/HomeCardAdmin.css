@@ -1,0 +1,73 @@
+/* HomeCard.css */
+
+.product-box2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    width: 215px; /* Adjust the width as needed */
+    height: 280px; /* Adjust the height as needed */
+    background-color: #606060;
+    border-radius: 10px;
+    position: relative;
+    right: 130px;
+    top:450px;
+  }
+  
+  .product-image2 {
+    max-width: 109%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  
+  .product-details2 {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .product-name2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .product-price2 {
+    color: #ffffff; /* Adjust the color as needed */
+    font-size: 19px;
+    position: absolute;
+    bottom: 60px; /* Adjust the distance from the bottom */
+    left: 5%;
+    
+  }
+  
+  .product-buttons2 {
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-button2,
+  .view-now-button2 {
+    background-color: #7348ac; /* Green color for "Add to Cart" button */
+    color: #fff; /* White text color */
+    margin-right: 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    position: relative;
+    top: 36px;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .view-now-button {
+    background-color: #7341B5; /* Blue color for "View Now" button */
+  }
+  
+  .add-to-cart-button:hover,
+  .view-now-button:hover {
+    background-color: #4d287d; /* Change color on hover */
+  }
+  
+  

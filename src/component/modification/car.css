@@ -1,0 +1,22 @@
+.car img {
+    width:250px;
+    position: relative;
+    top:270px;
+    left:16px;
+}
+.b1 button{
+    position: relative;
+    top:275px;
+    background-color: hsl(298, 70%, 49%);
+    border: none;
+    left:140px;
+    margin-right: 188px;
+    width:70px;
+    border-radius: 15px;
+    color:white
+}
+
+.b1 button a{
+    color:white;
+    text-decoration: none;
+}

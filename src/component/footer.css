@@ -1,0 +1,90 @@
+/* footer.css */
+
+.footer {
+ 
+  color: #fff;
+  border-top: 1px solid White;
+  bottom: 100px;
+  width: 100%;
+  position: relative;
+  right:10px;
+  height: 100px;
+  
+}
+.footer p{
+  position: relative;
+  top:170px;
+  left: 500px;
+}
+
+.p9 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+  position: relative;
+  left: 60px;
+  bottom: 70px;
+}
+.Connect svg {
+  font-size: 24px; 
+  margin-right: 10px; 
+  color: #fff;
+  position: relative;
+  left:55px;
+  bottom:60px; 
+}
+.p10{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+  position: relative;
+  left: 320px;
+  bottom: 130px;
+}
+.info{
+  font-size: 22px; 
+  margin-right: 10px; 
+  color: #fff;
+  position: relative;
+  left:320px;
+  bottom:130px;
+  line-height: 40px;
+   
+} 
+.p11{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+  position: relative;
+  left: 600px;
+  bottom: 288px;
+}
+.info2{
+  font-size: 22px; 
+  margin-right: 10px; 
+  color: #fff;
+  position: relative;
+  left:600px;
+  bottom:288px;
+  line-height: 40px;
+   
+} 
+
+.p12{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+  position: relative;
+  left: 900px;
+  bottom: 448px;
+}
+.info3{
+  font-size: 22px; 
+  margin-right: 10px; 
+  color: #fff;
+  position: relative;
+  left:900px;
+  bottom:448px;
+  line-height: 40px;
+   
+} 

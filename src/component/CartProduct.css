@@ -1,0 +1,240 @@
+/* CartProduct.css */
+
+.Cartinfo .Cartinfo2 {
+    background-color: #3B3B3B;
+    width: 750px;
+    height: 40px;
+    position: absolute;
+    bottom: 290px;
+    left: 20px;
+    border: 2px solid rgb(121, 119, 119);
+    border-left: none;
+    border-right: none;
+  }
+  
+  .Cartinfo .Cartinfo2 .orderNN {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .Cartinfo .Cartinfo2 .orderPPP {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 190px;
+  }
+  
+  .Cartinfo .Cartinfo2 .orderPri {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 395px;
+  }
+  
+  .Cartinfo .Cartinfo2 .orderQTY {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 520px;
+  }
+
+  .Cartinfo .Cartinfo2 .Delteitem{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 680px;
+  }
+  
+  .cart-product-title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .cart-product-title img {
+    max-width: 60px; /* Set the maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between image and text */
+    position: relative;
+    top: 50px;
+    left: 22px;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .CartName p {
+    color: white; /* Set the color for the name */
+    font-size: 20px; /* Set the font size for the name */
+    margin-top: -35px; /* Optional: Add some top margin for spacing */
+    position: relative;
+    top: 40px;
+    left: 140px;
+    text-align: left;
+  }
+  
+  .CartPrice p {
+    color: white; /* Set the color for the price */
+    font-size: 18px; /* Set the font size for the price */
+    margin-top: -105px; /* Optional: Add some top margin for spacing */
+    position: relative;
+    top: 105px;
+    left: 420px;
+    text-align: left;
+  }
+  
+ 
+  
+  .QTR-buttons button.add {
+    background-color: #ffffff;
+    margin-right: 550px;
+    position: relative;
+    top:60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+
+  }
+
+  .QTR-buttons button.add:hover{
+    background-color: #1eff00;
+    color:white;
+    
+
+  }
+
+  .QTR-buttons button.minus {
+    background-color: #ffffff;
+    margin-right: -440px;
+    position: relative;
+    top:33px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .QTR-buttons button.minus:hover {
+    background-color: #ff0000;
+    color:white;
+    
+
+  }
+  
+  
+  
+  .QTR-buttons .delete {
+   
+   margin-top: 10px;
+   position: absolute;
+   left: 720px;
+    cursor: pointer;
+  }
+  .QTR-buttons .delete :hover {
+ 
+    color:rgb(167, 27, 27)
+  }
+
+ 
+  
+  .QTR-buttons p {
+    color: white; /* Set the color for the quantity */
+    font-size: 18px; /* Set the font size for the quantity */
+    margin-top: -35px; /* Optional: Add some top margin for spacing */
+    position: relative;
+    top: 75px;
+    text-align: left;
+    left:580px;
+  }
+
+  .summary{
+    position: fixed;
+    bottom:313px;
+    width: 250px;
+    height:160px;
+    background-color: #3B3B3B;
+    border-radius: 12px;
+    right:925px;
+    border: 1px solid rgb(179, 176, 176);
+    
+  }
+
+  .summary .TQTY p{
+    position: relative;
+    top:0px;
+    left:-50px;
+    font-size: 20px;
+  }
+ 
+
+  .summary .TQTY .QU p{
+    position: relative;
+    top:-40px;
+    left:60px;
+    font-size: 20px;
+  }
+
+  .summary .TPrices p{
+    position: relative;
+    top:-45px;
+    left:-65px;
+    font-size: 20px;
+  }
+
+  .summary .TPrices .TPI p{
+    position: relative;
+    top:-87px;
+    left:60px;
+    font-size: 20px;
+  }
+
+.summary .Paymentbutton button{
+  position: relative;
+  bottom: 90px;
+  left:20px;
+  border: none;
+  background-color: #C338C8;
+  color: white;
+  width:95px;
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.Saddress{
+  position: fixed;
+    bottom:80px;
+    width: 250px;
+    height:220px;
+    background-color: #3B3B3B;
+    border-radius: 12px;
+    right:925px;
+    border: 1px solid rgb(179, 176, 176);
+}
+.Saddress input{
+  margin-top: 10px;
+  width:200px;
+  border-radius: 5px;
+  height:25px;
+  border: none;
+  
+}
+.Saddress button{
+  position: absolute;
+  right:0px;
+  bottom:10px;
+  border: none;
+  background-color: #C338C8;
+  color: white;
+  width:95px;
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+  

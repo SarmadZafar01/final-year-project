@@ -1,0 +1,39 @@
+.newbar1{
+        position: absolute;
+        left:400px;
+        background-color:#3B3B3B;
+        width:800px;
+        height: 27px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 158, 158);
+        top:110px;
+
+    }
+
+    .newbar-links1 {
+        list-style: none;
+        display: flex;
+        gap: 35px;
+        position: relative;
+        left: -10px;
+        bottom:10px;
+        
+      }
+      .newbar-links1 li {
+        text-transform: uppercase;
+        position: relative;
+        transition: transform 0.2s; 
+      }
+      .newbar-links1 li:hover {
+        transform: scale(1.1); 
+      }
+      
+      .newbar-links1 a {
+        text-decoration: none;
+        color: #fff;
+      }
+      
+      .newbar-links1 a:hover {
+        text-decoration: underline;
+      }
+      

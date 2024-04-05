@@ -1,0 +1,27 @@
+.TopBar{
+    background-color: hwb(274 10% 81%);
+    width:81%;
+    margin-top: -845px;
+    margin-left: 249px;
+    height:80px
+}
+.TopBar input{
+margin-left: 70px;
+margin-top: 25px;
+width:30%;
+height:30px;
+border-radius: 10px;
+background-color: white;
+border: none;
+}
+
+.Icon{
+    font-size: 2em;
+    margin-left: 950px;
+    background-color:#C338C8;
+    width:40px;
+    border-radius: 100px;
+    height:35px;
+    position: relative;
+    bottom:35px;
+}

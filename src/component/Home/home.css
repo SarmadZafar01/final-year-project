@@ -1,0 +1,146 @@
+main {
+    margin: 0 auto;
+    width: 90%;
+
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    bottom: 440px;
+    left: 170px;
+    
+}
+.products .product {
+    width: 19%;
+    margin: 10px;
+    padding: 30px;
+   background-color: #4D4D4D;
+   border-radius: 40px;
+   height:340px;
+   
+}
+.products .product img{
+     width: 278px;
+     height: 230px;
+     background-color: #494646;
+     border-radius: 40px 40px 0px 0px;
+     position: relative;
+     bottom:30px;
+     right:30px;
+     
+}
+.products .product .product-name{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    text-transform: capitalize;
+    position: relative;
+    right:20px;
+    bottom:40px;
+
+}
+.products .product .product-price {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 0;
+    display: inline-block;
+    position: relative;
+    bottom:220px;
+    right:20px;
+    color: white;
+}
+
+.products .product div.button button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: rgb(5, 0, 0);
+    color: yellow;
+    transition: .5s ease-in-out;
+    position: relative;
+    bottom:210px;
+    left:120px;
+   
+}
+
+.products .product div.button button:hover{
+    background-color: transparent;
+    color: #111;
+    border: 1px solid #000;
+}
+
+.products .product div.button2 button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: rgb(5, 0, 0);
+    color: yellow;
+    transition: .5s ease-in-out;
+    position: relative;
+    bottom:250px;
+    right:10px;
+   
+}
+.products .product div.button2 button a{
+  text-decoration: none;
+  color: Yellow;
+   
+}
+
+.products .product div.button2 button:hover{
+    background-color: transparent;
+    color: #111;
+    border: 1px solid #000;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+   
+    position: absolute;
+    bottom:288px;
+    left:1070px;
+    
+    
+  }
+  
+  .pagination button {
+
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(298, 70%, 49%);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:90px;
+    height: 30px;
+  }
+  
+  .pagination button:hover {
+    background-color: #2e7d32;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

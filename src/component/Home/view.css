@@ -1,0 +1,82 @@
+.view img{
+    position: absolute;
+    top:110px;
+    left:60px;
+    width:400px;
+    height: 300px;
+    background-color: rgb(177, 176, 176);
+    border: none;
+}
+.detail .Na{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:490px;
+    bottom: 465px;
+}
+.detail .Na p{
+    position: absolute;
+    top:20px;
+    width: 350px;
+    font-size: 20px;
+    left:0px;
+}
+
+.detail .pa{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:490px;
+    bottom: 380px;
+}
+.detail .pa p{
+    position: absolute;
+    top:20px;
+    width: 350px;
+    font-size: 22px;
+    left:0px;
+}
+.detail .pI{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left:70px;
+    bottom: 150px;
+    width:300px;
+    text-align: justify;
+}
+.detail .pI p{
+    position: absolute;
+    top:20px;
+    width: 350px;
+    font-size: 20px;
+    left:0px;
+}
+
+.detail .B30 button{
+    position: absolute;
+    top:360px;
+    width: 170px;
+    font-size: 20px;
+    left:490px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border:none;
+    font-size: 15px;
+    height:30px;
+    cursor: pointer;
+}
+.detail .B30 button:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+.detail .STR{
+    position: absolute;
+    top:335px;
+}
+
+
+
+  
+  

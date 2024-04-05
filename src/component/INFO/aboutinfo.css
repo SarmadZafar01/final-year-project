@@ -1,0 +1,102 @@
+.i1 {
+    width: 50px;
+    position: relative;
+    left:620px;
+    bottom: 20px;
+  }
+
+  .services{
+    position: relative;
+    bottom:90px;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .i2 img{
+position: relative;
+right:350px;
+width: 480px;
+
+  }
+
+  .point p{
+    background-color: white;
+    color:black;
+    width:280px;
+    position: relative;
+    left:600px;
+    bottom:320px;
+    border-radius: 15px;
+    font-size: 20px;
+    height:160px;
+    font-weight: bold;
+    
+
+  }
+  .p15{
+    font-size: 17px;
+    position: relative;
+    bottom:560px;
+    left:620px;
+  }
+  .point2 p{
+    background-color: white;
+    color:black;
+    width:280px;
+    position: relative;
+    left:920px;
+    bottom:706px;
+    border-radius: 15px;
+    font-size: 20px;
+    height:160px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .p16{
+    font-size: 17px;
+    position: relative;
+    bottom:860px;
+    left:940px;
+  }
+  .point3 p{
+    background-color: white;
+    color:black;
+    width:280px;
+    position: relative;
+    left:780px;
+    bottom:790px;
+    border-radius: 15px;
+    font-size: 20px;
+    height:160px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .p17{
+    font-size: 17px;
+    position: relative;
+    bottom:940px;
+    left:800px;
+  }
+  .Goal{
+    position: relative;
+    bottom:790px;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  .i3 img{
+    position: relative;
+    bottom:750px;
+    width: 500px;
+
+      }
+    .goalpoint{
+     color:white;
+     position: relative;
+     bottom: 1090px;  
+     left:500px; 
+     font-size:21px;
+     line-height: 80px;
+    }

@@ -1,0 +1,111 @@
+.Main{
+    position: absolute;
+        left:0px;
+        background-color:#3B3B3B;
+        width:800px;
+        height: 280px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 158, 158);
+        top:35px;
+
+}
+
+.Order{
+    position: absolute;
+        left:402px;
+        background-color:#3B3B3B;
+        width:800px;
+        height: 280px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 158, 158);
+        top:147px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+
+}
+.TrackOrder{
+    position: absolute;
+        left:402px;
+        background-color:#3B3B3B;
+        width:800px;
+        height: 280px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 158, 158);
+        top:147px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+}
+.Cart{
+    position: absolute;
+        left:402px;
+        background-color:#3B3B3B;
+        width:800px;
+        height: 360px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 158, 158);
+        top:147px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        
+        
+
+}
+.MyCar{
+    position: absolute;
+        left:402px;
+        background-color:#3B3B3B;
+        width:800px;
+        height: 280px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 158, 158);
+        top:147px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+
+}
+
+
+.infoo{
+    color:white;
+    
+
+}
+.infoo label{
+    position: relative;
+    right:-20px;
+    top:20px;
+    font-size: 18px;
+    text-align: left;
+}
+.infoo input{
+    border: none;
+    display: block;
+    position: relative;
+    top:0px;
+    left:200px;
+    width:300px;
+    height:27px;
+    border-radius: 15px;
+    background-color: rgb(88, 87, 87);
+    
+} 
+
+.B20 button{
+    position: relative;
+    left:280px;
+    top:30px;
+    background-color: black;
+    width:78px;
+    height:35px;
+    border-radius: 15px;
+    border:none;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}

@@ -1,0 +1,17 @@
+select {
+   background-color: #C338C8;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   position: absolute;
+   height:30px;
+   left:20px;
+   top:10px;
+  
+
+}
+
+select option{
+    background-color: white;
+    color :black
+}

@@ -1,0 +1,99 @@
+ .deliver{
+    font-size: 20px;
+    position: fixed;
+    left:425px;
+    top:165px;
+    
+ }
+
+ .deliver p{
+    font-size: 20px;
+    position: fixed;
+    left:505px;
+    top:145px;
+    
+ }
+
+ .pho{
+    font-size: 20px;
+    position: fixed;
+    left:425px;
+    top:205px;
+ }
+ .pho p{
+    font-size: 20px;
+    position: fixed;
+    left: 485px;
+    top:185px;
+    
+ }
+
+ .add{
+    position: fixed;
+    bottom: 345px;
+    left: 425px;
+    font-size: 20px;
+}
+
+.add p{
+    position: fixed;
+    font-size: 19px;
+    top:223px;
+    left:500px;
+}
+.Pre{
+    position: absolute;
+    bottom:65px;
+    left: -30px;
+    font-size: 20px;
+}
+
+.Pre p{
+    font-size: 19px;
+    top:-14px;
+    left:50px;
+}
+.war{
+    position: absolute;
+    bottom: -20px;
+    left: -137px;
+    font-size: 20px;
+}
+
+.war p{
+    font-size: 19px;
+    top:-15px;
+    left: 160px;
+    text-align: left;
+}
+.shi{
+    position: absolute;
+    bottom:185px;
+    left: 375px;
+    font-size: 20px;
+}
+
+.shi p{
+    font-size: 20px;
+    top:-10px;
+    left: 65px;
+    text-align: left;
+}
+
+.dev{
+    position: absolute;
+    bottom: 90px;
+    left: 410px;
+    font-size: 20px;
+}
+
+.dev p{
+    font-size: 19px;
+    top:-10px;
+    left: 34px;
+    text-align: left;
+}
+
+
+
+

@@ -1,0 +1,123 @@
+/* Default styles for larger screens */
+.Admintitle img {
+    width: 12%;
+    position: absolute;
+    right: 1160px;
+    bottom: 520px;
+}
+
+.Admintitle .topTitle {
+    color: white;
+    position: absolute;
+    left: 140px;
+    font-size: 31px;
+    margin-right: 20px;
+    top: 25px;
+}
+
+.Admintitle .MainHeading img {
+    top: 110px;
+    left: 110px;
+    width: 460px;
+}
+
+.Admintitle .topHeading {
+    color: white;
+    position: absolute;
+    left: 680px;
+    top: 110px;
+    font-size: 32px;
+}
+
+.Admintitle .Addinfo input {
+    position: relative;
+    left: 680px;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    top: 200px;
+    width: 330px;
+    height: 30px;
+}
+
+.Admintitle .Addinfo button {
+    position: relative;
+    left: 800px;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    top: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #04C3FF;
+    cursor: pointer;
+}
+
+.Admintitle .Addinfo button:hover {
+    background-color: #169bc4;
+}
+
+.Admintitle .Addinfo button a {
+    text-decoration: none;
+    color: black;
+}
+
+.Admintitle .copyright {
+    color: white;
+    position: absolute;
+    top: 560px;
+    font-size: 25px;
+    left: 140px;
+}
+
+::placeholder {
+    color: black;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .Admintitle img {
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .Admintitle .topTitle {
+        left: 20px;
+        top: 20px;
+        font-size: 24px;
+    }
+
+    .Admintitle .MainHeading img {
+        top: 20px;
+        left: 20px;
+        width: 80%;
+    }
+
+    .Admintitle .topHeading {
+        left: 20px;
+        top: 20px;
+        font-size: 24px;
+    }
+
+    .Admintitle .Addinfo input,
+    .Admintitle .Addinfo button {
+        left: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .Admintitle .Addinfo input {
+        margin-top: 10px;
+    }
+
+    .Admintitle .Addinfo button {
+        margin-top: 20px;
+    }
+
+    .Admintitle .copyright {
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+    }
+}

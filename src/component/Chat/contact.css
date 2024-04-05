@@ -1,0 +1,97 @@
+.box20{
+  border-radius: 20px;
+   
+    width:1294px;
+    height:500px;
+ 
+    margin-top: 3px;
+    border: 1px solid rgb(126, 115, 115);
+}
+.text2{
+    color:white;
+    margin-top: 25px ;
+    margin-left: 50px;
+   
+    
+}
+
+.text2 P{
+    font-size: 24px;
+    position: absolute;
+    bottom: 430px;
+    left:57px;
+    color: hsl(298, 70%, 49%);
+    font-weight: bold;
+
+}
+
+.Mail input{
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 350px;
+    height: 29px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E4E4E;
+    color:white;
+  
+}
+.Mail2 textarea{
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 350px;
+    height: 29px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E4E4E;
+    color: white;
+}
+
+
+.Mail .Mail2 textarea{
+    height:190px
+}
+.Mail .Mail2 button{
+   margin-top: 55px;
+   margin-left: 50px;
+   border-radius: 10px;
+   border: none;
+   height:25px;
+   background-color:hsl(298, 70%, 49%);
+   color: white;
+}
+
+.Mail ::placeholder{
+    color:white;
+}
+.Mail .Mail2 ::placeholder{
+    color:white;
+    position: relative;
+   bottom:80px;
+}
+
+.Mail .Cbutton button{
+    margin-left: 1170px;
+   position: relative;
+   bottom:470px;
+    background-color: hsl(298, 70%, 49%); 
+    border: none;
+    width:80px;
+    height:25px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Mail .Cbutton button a{
+   text-decoration: none;
+   color: white;
+}
+
+

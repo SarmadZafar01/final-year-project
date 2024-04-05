@@ -1,0 +1,22 @@
+/* button.css */
+div.More button {
+    background-color: hsl(298, 70%, 49%); /* Blue background color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 360px;
+    left: 115px;
+  }
+  
+  .More button:hover {
+    background-color: rgb(155, 45, 140)
+  }
+
+  .More Button a{
+    color:white;
+    text-decoration: none;
+  }
+  

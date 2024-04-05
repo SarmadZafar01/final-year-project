@@ -1,0 +1,54 @@
+/* model.css */
+
+.select{
+    background-color: hwb(274 10% 81%); 
+    width: 150px;
+    height: 190px;
+    position: relative;
+  
+    color: white;
+    text-align: center;
+   
+    bottom:15px;
+    left:10px;
+    
+  }
+  
+  .name {
+    margin-top: 10px;
+    background-color:  #342940;
+    
+  }
+  
+  label {
+    
+    display: block;
+    position: relative;
+    right: 20px;
+    top:10px;
+   
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+    position: relative;
+    right: 63px;
+    bottom: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+
+  input[type="checkbox"]:checked {
+    background-color: #85028a; 
+  }
+
+  
+  

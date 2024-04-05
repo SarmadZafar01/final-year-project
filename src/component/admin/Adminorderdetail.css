@@ -1,0 +1,338 @@
+.Toopserarch{
+    background-color: #3B3B3B;
+    width: 1000px;
+    height:90px;
+    position: absolute;
+    bottom: 510px;
+    left:280px;
+    border-radius: 10px;
+}
+
+.Toopserarch button{
+    position: absolute;
+    left:820px;
+    width:150px;
+    height:40px;
+    top:20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C338C8;
+    font-weight: bold;
+    color:white;
+
+
+}
+
+
+.Toopserarch button a{
+   text-decoration: none;
+   color: White;
+   
+
+
+}
+
+.Toopserarch .orderdate{
+    position: absolute;
+   color: white;
+   left:20px;
+   top:10px;
+   font-size: 25px;
+
+}
+.Toopserarch .orderid{
+    position: absolute;
+   color: white;
+   left:20px;
+   top:45px;
+   font-size: 18px;
+
+}
+
+.MainDetail{
+    background-color:  #3B3B3B;
+    width: 1000px;
+    height:190px;
+    position: absolute;
+    bottom: 310px;
+    left:280px;
+    border-radius: 10px;
+}
+
+.MainDetail .Orderuser{
+    color: White;
+    position: absolute;
+    top:20px;
+    left:120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.MainDetail .cOrder{
+    color: White;
+    position: absolute;
+    top:60px;
+    left:120px;
+    font-size: 20px;
+    
+}
+.MainDetail .Gmail{
+    color: White;
+    position: absolute;
+    top:90px;
+    left:120px;
+    font-size: 20px;
+    
+}
+.MainDetail .AUSER{
+    color: #e42deb;
+    position: absolute;
+    top:30px;
+    left:20px;
+    font-size: 80px;
+    
+    
+}
+.MainDetail .OrderShip{
+    color: White;
+    position: absolute;
+    top:20px;
+    left:420px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.MainDetail .SOrder{
+    color: White;
+    position: absolute;
+    top:60px;
+    left:420px;
+    font-size: 20px;
+    
+}
+.MainDetail .Pmail{
+    color: White;
+    position: absolute;
+    top:90px;
+    left:420px;
+    font-size: 20px;
+    
+}
+.MainDetail .AUSER2{
+    color: #e42deb;
+    position: absolute;
+    top:30px;
+    left:330px;
+    font-size: 80px;
+    
+    
+}
+
+.MainDetail .OrderAdd{
+    color: White;
+    position: absolute;
+    top:20px;
+    left:820px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.MainDetail .AOrder{
+    color: White;
+    position: absolute;
+    top:60px;
+    left:820px;
+    font-size: 20px;
+    
+}
+
+.MainDetail .AUSER3{
+    color: #e42deb;
+    position: absolute;
+    top:30px;
+    left:730px;
+    font-size: 80px;
+    
+    
+}
+
+.useroderinfo{
+    background-color: #3B3B3B;
+    width: 500px;
+    height:320px;
+    position: absolute;
+    bottom: -20px;
+    left:280px;
+    border-radius: 10px;
+}
+
+.useroderinfo .orderinfo2{
+    background-color:  #3B3B3B;
+    width: 450px;
+    height:40px;
+    position: absolute;
+    bottom: 250px;
+    left:20px;
+    border: 2px solid rgb(121, 119, 119);
+    border-left: none;
+    border-right: none;
+}
+
+.useroderinfo .orderinfo2 .orderN{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left:10px;
+}
+
+.useroderinfo .orderinfo2 .orderP{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left:110px;
+}
+
+.useroderinfo .orderinfo2 .orderPP{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left:260px;
+}
+
+.useroderinfo .orderinfo2 .orderQ{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top:10px;
+    left:360px;
+}
+
+.useroderinfo .orderde{
+    background-color:  #202022;
+    width: 460px;
+    height:45px;
+    position: absolute;
+    bottom: 180px;
+    left:10px;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 20px;
+    
+}
+
+.useroderinfo .orderde img{
+    width:42px;
+    position: relative;
+    left:10px;
+    top:3px;
+    
+}
+
+.useroderinfo .orderde .NNAME{
+    color: white;
+    position: relative;
+    left:70px;
+    bottom:32px;
+    font-size: 18px;
+    
+}
+
+.useroderinfo .orderde .PPRISE{
+    color: white;
+    position: relative;
+    left:280px;
+    bottom:54px;
+    font-size: 18px;
+    
+}
+
+.useroderinfo .orderde .QUT{
+    color: white;
+    position: relative;
+    left:390px;
+    bottom:75px;
+    font-size: 20px;
+    
+}
+
+
+.useroderinfo .orderde2{
+    background-color:  #202022;
+    width: 460px;
+    height:45px;
+    position: absolute;
+    bottom: 120px;
+    left:10px;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 20px;
+    
+}
+
+.useroderinfo .orderde2 img{
+    width:50px;
+    position: relative;
+    left:10px;
+    top:3px;
+    
+}
+
+.useroderinfo .orderde2 .NNAME2{
+    color: white;
+    position: relative;
+    left:70px;
+    bottom:30px;
+    font-size: 18px;
+    
+}
+
+.useroderinfo .orderde2 .PPRISE2{
+    color: white;
+    position: relative;
+    left:280px;
+    bottom:50px;
+    font-size: 18px;
+    
+}
+
+.useroderinfo .orderde2 .QUT2{
+    color: white;
+    position: relative;
+    left:390px;
+    bottom:70px;
+    font-size: 20px;
+    
+}
+
+.useroderinfo  .NNAME3{
+    color: white;
+    position: relative;
+    left:280px;
+    top:210px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.useroderinfo  .PPRISE3{
+    color: white;
+    position: relative;
+    left:280px;
+    top:220px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.useroderinfo .QUT3{
+    color: white;
+    position: relative;
+    left:280px;
+    top:230px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
