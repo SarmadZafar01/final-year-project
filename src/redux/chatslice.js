@@ -1,21 +1,24 @@
 // chatSlice.js
-
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  messages: [],
+  username: localStorage.getItem('username') || '',
+  room: localStorage.getItem('room') || '',
 };
 
-export const chatSlice = createSlice({
-  name: "chat",
+const chatSlice = createSlice({
+  name: 'chat',
   initialState,
   reducers: {
-    addMessage: (state, action) => {
-      state.messages.push(action.payload);
+    setUserInfo(state, action) {
+      state.username = action.payload.username;
+      state.room = action.payload.room;
+      localStorage.setItem('username', action.payload.username);
+      localStorage.setItem('room', action.payload.room);
     },
   },
 });
 
-export const { addMessage } = chatSlice.actions;
+export const { setUserInfo } = chatSlice.actions;
 
 export default chatSlice.reducer;

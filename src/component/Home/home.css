@@ -143,4 +143,12 @@ main {
     background-color: #ccc;
     cursor: not-allowed;
   }
+
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    /* Add styling as needed */
+  }
   

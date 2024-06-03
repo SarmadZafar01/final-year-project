@@ -53,7 +53,7 @@ mongoose.connect(process.env.MONGODB_URL)
 
 
 
-// Schema
+// UserSchema
 const userSchema = mongoose.Schema({
   FullName: String,
   Email: {
@@ -67,7 +67,7 @@ const userModel = mongoose.model("user", userSchema);
 
 
 
-// API
+// API 
 app.get("/", (req, res) => {
   res.send("Server is running");
 });
@@ -97,28 +97,35 @@ app.post("/signup", async (req, res) => {
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
-//login
 
+
+//login
 app.post("/login", async (req, res) => {
   console.log(req.body);
   const { Email, password } = req.body;
 
   try {
-    const user = await userModel.findOne({ Email, password }).exec();
+    const user = await userModel.findOne({ Email }).exec();
 
     if (!user) {
       return res.status(404).json({ message: "User not found", alert: false });
     }
 
-    // Perform additional authentication logic (e.g., comparing passwords)
+    // Compare the provided password with the hashed password stored in the database
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+
+    if (!isPasswordValid) {
+      return res.status(401).json({ message: "Invalid password", alert: false });
+    }
+
+    // If password is valid, proceed with login
     const datasend = {
       _id: user._id,
       FullName: user.FullName,
       Email: user.Email
-
     }
     console.log(datasend)
-    res.status(200).json({ message: "Login successful", alert: true, data:datasend });
+    res.status(200).json({ message: "Login successful", alert: true, data: datasend });
     
   } catch (error) {
     console.error(error);
@@ -127,6 +134,8 @@ app.post("/login", async (req, res) => {
 });
 
 
+
+//Nodemailer
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
@@ -135,6 +144,8 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+
+//ChangePassword
 app.post("/changepassword", async (req, res) => {
   const { Email, newPassword } = req.body;
 
@@ -175,6 +186,7 @@ app.post("/changepassword", async (req, res) => {
   }
 });
 
+
 //product Section
 const schemaProduct = mongoose.Schema({
   name: String,
@@ -187,7 +199,7 @@ const schemaProduct = mongoose.Schema({
 const productModel = mongoose.model("product", schemaProduct)
 
 
-//save product in database
+//Upload product API
 app.post("/uploadproduct", async (req, res) => {
   console.log(req.body)
 
@@ -197,7 +209,7 @@ app.post("/uploadproduct", async (req, res) => {
 })
 
 
-//
+//Feth Product
 app.get("/product", async (req, res) => {
 
   const data = await productModel.find({})
@@ -206,23 +218,23 @@ app.get("/product", async (req, res) => {
 
 
 //delete product
-// Assuming this is your backend code using Express
 
-app.delete("/deleteproduct/:id", async (req, res) => {
+app.delete("/delete/:id", async (req, res) => {
+  const id = req.params.id;
   try {
-    const result = await productModel.deleteOne({ _id: req.params.id });
-    if (result.deletedCount === 1) {
-      res.status(200).json({ message: "Product deleted successfully" });
+    const data = await productModel.deleteOne({ _id: id });
+    if (data.deletedCount === 1) {
+      res.send({ success: true, message: "Data deleted successfully" });
     } else {
-      res.status(404).json({ error: "Product not found" });
+      res.status(404).send({ success: false, message: "Product not found" });
     }
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Internal Server Error" });
+    res.status(500).send({ success: false, message: "Error deleting data" });
   }
 });
 
 
+//Update API
 app.put("/product/:id", async (req, res) => {
   try {
     const productId = req.params.id;
@@ -258,6 +270,7 @@ app.put("/product/:id", async (req, res) => {
 });
 
 
+
 //paymentt scchema
 const paymentSchema = new mongoose.Schema({
   userAddress: {
@@ -283,6 +296,8 @@ const paymentSchema = new mongoose.Schema({
 
 const Payment = mongoose.model("Payment", paymentSchema);
 
+
+//Payment API
 app.post('/processPayment', async (req, res) => {
   try {
     // Extract payment details from the request body
@@ -299,9 +314,7 @@ app.post('/processPayment', async (req, res) => {
     // Save the payment to the database
     const savedPayment = await payment.save();
 
-    // You can perform additional actions here, such as updating inventory or integrating with a payment gateway
-
-    // Respond with a success message and the payment ID
+   
 
     const mailOptions = {
       from: "sarmadzafar12@gmail.com",
@@ -325,29 +338,9 @@ app.post('/processPayment', async (req, res) => {
   }
 });
 
-app.post("/sendRoomToEmail", async (req, res) => {
-  const { userEmail, roomId } = req.body;
-
-  const mailOptions = {
-    from: "sarmadzafar12@gmail.com",
-    to:  Email,
-    subject: "Room ID for Live Chat",
-    text: `Your Room ID for Live Chat: ${roomId}`,
-  };
-
-  transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-      console.error(error);
-      res.status(500).json({ error: "Failed to send room ID to email" });
-    } else {
-      console.log("Email sent: " + info.response);
-      res.status(200).json({ message: "Room ID sent to email successfully" });
-    }
-  
-  });
-});
 
 
+//cancle Order API
 app.post("/cancelOrder", async (req, res) => {
   try {
     const { orderId } = req.body;

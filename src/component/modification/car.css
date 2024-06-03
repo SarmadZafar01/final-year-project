@@ -1,22 +1,38 @@
 .car img {
-    width:250px;
-    position: relative;
-    top:270px;
-    left:16px;
-}
-.b1 button{
-    position: relative;
-    top:275px;
-    background-color: hsl(298, 70%, 49%);
-    border: none;
-    left:140px;
-    margin-right: 188px;
-    width:70px;
-    border-radius: 15px;
-    color:white
+    width: 260px;
+    position: absolute;
+    top: 395px;
+    left: 60px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.b1 button a{
-    color:white;
-    text-decoration: none;
+.car img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.car1 img {
+    width: 290px;
+    position: absolute;
+    top: 420px;
+    left: 490px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.car1 img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.car2 img {
+    width: 350px;
+    position: fixed;
+    top: 420px;
+    left: 900px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.car2 img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }

@@ -102,7 +102,7 @@ const handlesubmit= async (e)=>{
                 <option value="Air intake">Air intake</option>
                 <option value="Fog light">Fog light</option>
                 <option value="Headlight">Headlight</option>
-                <option value="Headlight">Tail light</option>
+                <option value="Tail light">Tail light</option>
                 <option value="Console"> Console</option>
                 <option value="Steering Wheel">     Steering Wheel</option>
             </select>

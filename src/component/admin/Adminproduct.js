@@ -7,25 +7,22 @@ import HomecardAdmin from './HomeCardAdmin';
 import { useSelector } from 'react-redux';
 import "../admin/HomeCardAdmin.css";
 import Admincategory from './Admincategory';
+import UpdateProduct from './adminupdateproduct'; // Import the UpdateProduct component
 
 function AdminProduct() {
   const productData = useSelector((state) => state.product.productList);
   const searchTerm = useSelector((state) => state.product.searchTerm);
+  const [loading, setLoading] = useState(true);
   const categoryList = [...new Set(productData.map((el) => el.category))];
 
-  // Pagination
   const productsPerPage = 6;
   const totalPages = Math.ceil(productData.length / productsPerPage);
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Calculate the index range for the current page
   const startIndex = (currentPage - 1) * productsPerPage;
   const endIndex = currentPage * productsPerPage;
 
-  // Category filter
   const [selectedCategory, setSelectedCategory] = useState(null);
-
-  // Filtered data based on search term and category
   const [dataFilter, setDataFilter] = useState([]);
 
   useEffect(() => {
@@ -41,14 +38,20 @@ function AdminProduct() {
       );
     }
     setDataFilter(filteredData.slice(startIndex, endIndex));
+    setLoading(false);
   }, [productData, searchTerm, selectedCategory, currentPage]);
 
   const handleFilterProduct = (category) => {
     setSelectedCategory((prevCategory) => (prevCategory === category ? null : category));
-    setCurrentPage(1); // Reset to the first page when applying a new filter
+    setCurrentPage(1);
   };
 
-  // Pagination handlers
+  const handleDeleteProduct = (id) => {
+    setDataFilter((prevData) => prevData.filter((product) => product._id !== id));
+  };
+
+
+
   const goToNextPage = () => {
     setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
   };
@@ -65,35 +68,44 @@ function AdminProduct() {
       <div className="B11100">
         <button type="button"><Link to="/AddProduct">Create Now</Link></button>
       </div>
-      <div className="FuatureProduct">
-        <div className="CATO">
-          {categoryList.length > 0 && (
-            <Admincategory
-              categories={categoryList}
-              onClick={handleFilterProduct}
-              selectedCategory={selectedCategory}
-            />
-          )}
-        </div>
-        <main>
-          <div className="products">
-            {dataFilter.map((el) => (
-              <HomecardAdmin
-                key={el.id}
-                id={el.id}
-                image={el.image}
-                name={el.name}
-                price={el.price}
-                category={el.category}
+      {loading ? (
+        <div>Loading...</div>
+      ) : (
+        <div className="FuatureProduct">
+          <div className="CATO">
+            {categoryList.length > 0 && (
+              <Admincategory
+                categories={categoryList}
+                onClick={handleFilterProduct}
+                selectedCategory={selectedCategory}
               />
-            ))}
+            )}
           </div>
-        </main>
-        <div className="pagination1">
-          <button onClick={goToPreviousPage} disabled={currentPage === 1}>Previous</button>
-          <button onClick={goToNextPage} disabled={currentPage === totalPages}>Next</button>
+          <main>
+          
+            <div className="products">
+              {dataFilter.map((el) => (
+                <HomecardAdmin
+                  key={el._id}
+                  id={el._id}
+                  image={el.image}
+                  name={el.name}
+                  price={el.price}
+                  category={el.category}
+                  onDelete={handleDeleteProduct}
+                  // Pass the function to the child component
+                />
+              ))}
+            </div>
+          </main>
+          
+          <div className="pagination1">
+            <button onClick={goToPreviousPage} disabled={currentPage === 1}>Previous</button>
+            <button onClick={goToNextPage} disabled={currentPage === totalPages}>Next</button>
+          </div>
+        
         </div>
-      </div>
+      )}
     </>
   );
 }

@@ -100,6 +100,7 @@ const MyOrder = () => {
 
         // Navigate to the track order page after payment and pass address details as URL parameters
         navigate(`/trackorder?name=${userAddress.name}&phone=${userAddress.phoneNumber}&address=${userAddress.address}`);
+        
       } catch (error) {
         console.error('Error processing payment:', error);
         toast("Error processed successfully")

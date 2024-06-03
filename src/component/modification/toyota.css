@@ -1,0 +1,103 @@
+.color{
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     
+}
+
+.color p{
+    position: relative;
+    left:-415px;
+    font-size: 25px;
+    bottom:276px;
+}
+
+.color .White{
+    background-color: #fff;
+    position: relative;
+    right:500px;
+    bottom:210px;
+    width:100px;
+    height:30px;
+    text-align: center;
+    border-radius: 10px;
+ 
+}
+
+.color .White a {
+    color: black;
+    text-decoration: none; 
+}
+
+
+.color .blue{
+    background-color: blue;
+    position: relative;
+    right:485px;
+    bottom:210px;
+    width:100px;
+    height:30px;
+    text-align: center;
+    border-radius: 10px;
+   
+    
+}
+
+.color  .blue  a{
+    color: black;
+    text-decoration: none
+}
+
+
+.color .Red{
+    background-color: red;
+    position: relative;
+    right:470px;
+    bottom:210px;
+    width:100px;
+    height:30px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+.color .Red a{
+    color: black;
+    text-decoration: none;
+}
+
+.Top{
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.Top p{
+    position: relative;
+    left:-145px;
+    font-size: 25px;
+    bottom:276px;
+}
+
+.Top .Sunroof{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:180px;
+    bottom:210px;
+    border-radius: 10px;
+}
+
+.Top .Sunroof img{
+    width:105px;
+    position: absolute;
+    bottom:1px;
+    right:-2px;
+   
+   
+}

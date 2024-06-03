@@ -156,6 +156,12 @@
     font-size: 20px;
 
 }
+.B110 button:hover{
+    background-color: #7c1e80;
+    transition: .2s ease-in-out;
+    
+
+}
 
 
 

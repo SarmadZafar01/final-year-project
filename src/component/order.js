@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { selectOrders } from '../redux/orderslice';
 import { cancelOrder } from '../redux/orderslice';
 import '../component/order.css';
-import { toast } from 'react-hot-toast'
+import { toast } from 'react-hot-toast';
 
 function Order() {
   const orders = useSelector(selectOrders);
@@ -11,6 +11,9 @@ function Order() {
 
   const handleCancelOrder = async (orderId) => {
     try {
+      // Clear address details in session storage
+      sessionStorage.clear();
+
       // Dispatch cancelOrder action
       dispatch(cancelOrder(orderId));
       

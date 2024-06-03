@@ -5,32 +5,33 @@ width:350px;
 bottom:350px;
 }
  .circle1{
-width:240px;
+width:380px;
 background-color: hwb(275 15% 62%);
 position: absolute;
-top:390px;
+top:415px;
 height:185px;
-border-radius: 20px;
+border-radius: 20px 20px 20px 20px;
+left:25px;
 }
 .circle2{
-    width:240px;
+    width:380px;
     background-color: hwb(275 15% 62%);
     position: absolute;
-    top:390px;
+    top:415px;
     height:185px;
-    border-radius: 20px;
-    left:270px;
+    border-radius: 20px 20px 20px 20px;
+    left:450px;
     }
 
    
     .circle3{
-        width:240px;
+        width:380px;
         background-color: hwb(275 15% 62%);
         position: absolute;
-        top:390px;
+        top:415px;
         height:185px;
-        border-radius: 20px;
-        left:530px;
+        border-radius: 20px 20px 20px 20px;
+        left:870px;
         }
         .circle4{
             width:240px;

@@ -78,7 +78,7 @@ function Login() {
               <Link to="/forgotpassword">Forgot Your Password</Link>
             </label>
           </div>
-          {/* Change type to "submit" */}
+         
           <button type="submit">Login</button>
         </form>
       </div>

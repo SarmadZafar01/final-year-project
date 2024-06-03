@@ -4,7 +4,7 @@
   .Order h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #333;
+    color:  #202022;
     width: 100%;
   }
   
@@ -19,18 +19,34 @@
     margin: 0;
     font-size: 20px;
     color: #ffffff;
-    background-color: rgb(82, 80, 80);
+    background-color:  #202022;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;
     position: relative;
     top:10px;
     left:-0px;
+    border: 1px solid rgb(121, 119, 119);
+    display:grid;
   }
   
+  .Order img {
+    width: 6%; /* Adjust the width as needed */
+    position: absolute; /* Change to relative positioning */
+    z-index: 1; /* Ensure the image is above other elements */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    top: 37px;
+    left:50px;  
+  }
+  
+
+
   .Order .BBTON button{
-    position: absolute;
+    position:relative;
   right:0px;
   bottom:10px;
   border: none;
