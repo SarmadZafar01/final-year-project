@@ -40,6 +40,7 @@ function Order() {
         <div key={index}>
           {order.map((product) => (
             <div key={product._id}>
+              <img src={product.image} alt={product.name} />
               <p>{product.name} - Quantity: {product.qty} - Total: {product.price}</p>
             </div>
           ))}

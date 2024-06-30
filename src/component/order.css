@@ -47,8 +47,8 @@
 
   .Order .BBTON button{
     position:relative;
-  right:0px;
-  bottom:10px;
+  right:-330px;
+  bottom:-150px;
   border: none;
   background-color: #C338C8;
   color: white;

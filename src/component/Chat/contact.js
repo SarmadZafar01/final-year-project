@@ -35,6 +35,7 @@ const Contact=()=> {
     emailjs.sendForm('service_krbjiud', 'template_r9n1u1u', form.current, 'sw6pURLKN4cOtcUwW')
       .then((result) => {
           console.log(result.text);
+          toast('message send successfully')
       }, (error) => {
           console.log(error.text);
       });

@@ -72,7 +72,7 @@ navigate('/');
         </div>
 
         <div className="Date">
-          <p>Join date: 28 Oct 2023</p>
+          <p>Join date: 29 June 2024</p>
         </div>
 
         <div className="PRONAME">{userData.user.FullName}</div>

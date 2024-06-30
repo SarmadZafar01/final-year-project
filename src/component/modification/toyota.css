@@ -101,3 +101,370 @@
    
    
 }
+
+.back {
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.back p{
+    position: relative;
+    left:120px;
+    font-size: 25px;
+    bottom:276px;
+}
+
+.back .toyotaback{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-70px;
+    bottom:210px;
+    border-radius: 10px;
+}
+.back .toyotaback img{
+    width:75px;
+    position: absolute;
+    bottom:10px;
+    right:13px;
+   
+   
+}
+
+.back .toyotabackk{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-90px;
+    bottom:210px;
+    border-radius: 10px;
+}
+.back .toyotabackk img{
+    width:90px;
+    position: absolute;
+    bottom:5px;
+    right:5px;
+   
+   
+}
+
+.back .toyotabackkk{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-110px;
+    bottom:210px;
+    border-radius: 10px;
+}
+.back .toyotabackkk img{
+    width:80px;
+    position: absolute;
+    bottom:2px;
+    right:5px;
+   
+   
+}
+
+.Tire{
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.Tire p{
+    position: relative;
+    left:470px;
+    font-size: 25px;
+    bottom:276px;
+}
+
+.Tire .toyotatire{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-420px;
+    bottom:210px;
+    border-radius: 10px;
+}
+
+.Tire .toyotatire img{
+    width:68px;
+    position: absolute;
+    bottom:2px;
+    right:11px;
+}
+
+.Tire .toyotawhitetiree{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-450px;
+    bottom:210px;
+    border-radius: 10px;
+}
+
+.Tire .toyotawhitetiree img{
+    width:69px;
+    position: absolute;
+    bottom:0px;
+    right:12px;
+
+}
+
+.Tirelight{
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.Tirelight p{
+    position: relative;
+    left:-450px;
+    font-size: 25px;
+    bottom:130px;
+
+}
+
+.Tirelight .toyotatirelight{
+    background-color: rgb(43, 255, 0);
+    width:100px;
+    height:70px;
+    position: relative;
+    right:560px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.Tirelight .toyotawhitetireelight{
+    background-color: rgb(153, 0, 255);
+    width:100px;
+    height:70px;
+    position: relative;
+    right:540px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.gastank {
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.gastank p{
+    position: relative;
+    left:-109px;
+    font-size: 25px;
+    bottom:130px;
+}
+
+.gastank .toyotagassticker{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:280px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.gastank .toyotagassticker img{
+    width:80px;
+    position: absolute;
+    bottom:-2px;
+    right:12px;
+}
+
+
+.gastank .toyotagasstickerr{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:260px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.gastank .toyotagasstickerr img{
+    width:98px;
+    position: absolute;
+    bottom:0px;
+    right:3px;
+}
+
+.gastank .toyotagasstickerrr{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:240px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.gastank .toyotagasstickerrr img{
+    width:95px;
+    position: absolute;
+    bottom:2px;
+    right:8px;
+}
+
+.Sidesticker {
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.Sidesticker p{
+    position: relative;
+    left:195px;
+    font-size: 25px;
+    bottom:130px;
+}
+
+.Sidesticker .toyotasidesticker{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-65px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.Sidesticker .toyotasidesticker img{
+    width:85px;
+    position: absolute;
+    bottom:-1px;
+    right:10px;
+}
+
+.Sidesticker .toyotasidestickerr{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-80px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.Sidesticker .toyotasidestickerr img{
+    width:100px;
+    position: absolute;
+    bottom:15px;
+    right: 3px;
+    height:40px;
+}
+
+.backsticker{
+    position: absolute;
+    bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+}
+
+.backsticker p{
+    position: relative;
+    left:490px;
+    font-size: 25px;
+    bottom:130px;
+}
+
+.backsticker .toyotabacksticker{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-360px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.backsticker .toyotabacksticker img{
+    width:100px;
+    position: absolute;
+    bottom:20px;
+    right: 1px;
+   
+}
+
+.backsticker .toyotabackstickerr{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-380px;
+    bottom:60px;
+    border-radius: 10px;
+}
+
+.backsticker .toyotabackstickerr img{
+    width:100px;
+    position: absolute;
+    bottom:-10px;
+    right: 1px;
+}
+
+.backsticker .toyotabackstickerrr{
+    background-color: white;
+    width:100px;
+    height:70px;
+    position: relative;
+    right:-400px;
+    bottom:60px;
+    border-radius: 10px;
+}
+.backsticker .toyotabackstickerrr img{
+    width:100px;
+    position: absolute;
+    bottom:-13px;
+    right: 1px;
+}
+
+/*
+.Screenshot{
+    display: flex;
+}
+
+.Screenshot button{
+    position: relative;
+    left:1150px;
+    top:570px;
+    background-color:  #C338C8;
+    color: white;
+    border: none;
+    border-radius:10px;
+    height:30px;
+    width: 10%;
+}
+
+.Screenshot button:hover{
+    background-color:  #9c32a0;
+    
+}
+
+*/
+
+
+    
+    
+    

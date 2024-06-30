@@ -34,8 +34,8 @@ const Section = () => {
             onChange={(e) => setDOB(e.target.value)}
             placeholder="Enter your Date of Birth"
           />
-          <label>Change Password</label>
-          <input type="Password" />
+          <label>Join Date</label>
+          <input type="Password" placeholder='29/6/24'  disabled/>
           <div className="B20">
             <button type="button" onClick={handleUpdate}>Update</button>
           </div>
