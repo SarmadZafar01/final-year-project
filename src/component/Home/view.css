@@ -75,6 +75,30 @@
     position: absolute;
     top:335px;
 }
+h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:545px;
+    left:50px;
+}
+
+.txt{
+    position: relative;
+    top:450px;
+}
+.products-containerrr {
+    display:flex;
+     
+    
+      flex-direction: row;
+      margin-top: 300px;
+      position: absolute;
+      left: 50px;
+     
+  
+      
+    
+    }
 
 
 
